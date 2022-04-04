@@ -40,7 +40,7 @@ Calculate an overall rank for each player based on weighted average rank of thos
 > For detailed R code, please click  [R code: linear and shrikange models](sample-data-clean.ipynb) for linear and shrinkage models, click  [R code: Ensemble models](sample-data-clean.ipynb) for tree-based models, click [R code: exploratory data analysis](sample-data-clean.ipynb) for exploratory data analysis. 
 
 ---
-Data limitatoin: 
+**Data limitatoin: **
 
 >
 * The ‘Tournament Passing’ and ‘Tournament Defense’ data in 2020 is missing. As player performance features are selected by variable significance, the unavailability of 2020 tournament data disallows the split of training and test datasets on aggregate team level. This can lead to not optimal model chosen to support the process of selecting players.
@@ -82,9 +82,9 @@ For the pursuit of world-wide competitiveness, Rarita’s national football team
 All three sources of revenue outlied below significantly rely on brand development to attract new supporters and improve fans base. The growth of revenue can be achieved by both improving rankings in competitions and setting up effective and practical commercialization strategies.
 
 >
-* Matchday revenue: ticket sales at local stadiums, Stadium tours and loaning out the stadium for filming
-* Broadcast revenue: TV deals 
-* Commercial revenue: mechanization including sales of all jerseys, hats, scarves, jackets and badges, large contracts with sponsors.
+* **Matchday revenue:** ticket sales at local stadiums, Stadium tours and loaning out the stadium for filming
+* **Broadcast revenue:** TV deals 
+* **Commercial revenue:** mechanization including sales of all jerseys, hats, scarves, jackets and badges, large contracts with sponsors.
 
 > Assuming all strategies are successfully practiced, the relevant profit and loss can be estimate with present value of 21335.49 million shown below.
 
@@ -116,7 +116,7 @@ From the projection above, except the initial funding of 995 million doubloons, 
 
 ![](boxplot_example_of_historical_data_analysis.png)
 
-* Three-stage separation model: There will still be residual impacts of COVID-19 pandemic on global economy in 2022 but minimal impacts for 2022 onwards. For 2023-2027, the team will be subject to multiple changes including player composition, revenue and expense composition due to successful implement of strategies and achieving higher rankings in the FSA and other potential changes in short-term.  At this stage, the team is expected to experience revenue boost and expense management. After Year 7, the team is expected to be mature in team operation and should be subject to long-term expense and revenue growth rate. The key assumptions for the 3-stage separation model is shown below.
+* **Three-stage separation model:** There will still be residual impacts of COVID-19 pandemic on global economy in 2022 but minimal impacts for 2022 onwards. For 2023-2027, the team will be subject to multiple changes including player composition, revenue and expense composition due to successful implement of strategies and achieving higher rankings in the FSA and other potential changes in short-term.  At this stage, the team is expected to experience revenue boost and expense management. After Year 7, the team is expected to be mature in team operation and should be subject to long-term expense and revenue growth rate. The key assumptions for the 3-stage separation model is shown below.
 
 ![](DCF_key_assumptions.png)
 
@@ -128,7 +128,7 @@ From the projection above, except the initial funding of 995 million doubloons, 
 
 ---
 
-Data limitation: Tournament and league data only involves the past two consecutive years of 2020-2021. No links between the improvement of ranking and past revenue
+**Data limitation:** Tournament and league data only involves the past two consecutive years of 2020-2021. No links between the improvement of ranking and past revenue
 growth and expense growth can be explored due to limited data. This results in higher dependence in assumptions that are the sources of uncertainty.
 
 ---
@@ -156,13 +156,13 @@ The NPV of direct profit of building the national football team is significantly
 ### Risks and ranking
 
 >
-* Ethical and reputation risks: With the strong desires to win, football players may choose to dope. This can compromise the integrity of competition and can bring the reputation of the whole country into a scandal.
-* Healthcare risks: High incidence of injuries on football player could pose a burden on Rarita’s new team due to absences of player and recovery costs. The incidence of injuries in male professional adult has an overall exposure of 2.5-9.4 injuries/1000h.
-* Political risks: The tension between the host countries and neighbor countries or other countries can cause damages to football athletes, including body injuries, kidnapping, and murder of athletes.
-* Extreme epidemic risk: The total revenue downturn by year is 11% for the ‘Big Five’ leagues due to the COVID-19 ourbreak. The probability of extreme epidemics in any year is clarified as 2% 
+* **Ethical and reputation risks:** With the strong desires to win, football players may choose to dope. This can compromise the integrity of competition and can bring the reputation of the whole country into a scandal.
+* **Healthcare risks:** High incidence of injuries on football player could pose a burden on Rarita’s new team due to absences of player and recovery costs. The incidence of injuries in male professional adult has an overall exposure of 2.5-9.4 injuries/1000h.
+* **Political risks:** The tension between the host countries and neighbor countries or other countries can cause damages to football athletes, including body injuries, kidnapping, and murder of athletes.
+* **Extreme epidemic risk:** The total revenue downturn by year is 11% for the ‘Big Five’ leagues due to the COVID-19 ourbreak. The probability of extreme epidemics in any year is clarified as 2% 
 
 ---
-Risk Ranking: 
+**Risk Ranking: **
 The two key metrics to rank risks are frequency and severity. By common sense, the healthcare risk has the highest frequency of incidence followed by ethical and reputation risks. However, a strike on reputation would directly result in the significant deduction on future revenue compared to loss of revenue due to injuries of athletes. Hence, it ranked the first followed by healthcare risks. Political risk has lowest ranking due to its extremely low frequency. There are countable numbers of international events affecting the football team.
 
 ---
