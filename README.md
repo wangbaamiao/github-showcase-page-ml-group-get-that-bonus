@@ -37,7 +37,7 @@ The modelling steps are outlined below:
 Calculate an overall rank for each player based on weighted average rank of those selected performance features.
 * Select 21 players with the highest ranks with filtered positions and substitute players are also selected based on their ranking and age.
 
-> For detailed R code, please click  [R code: linear and shrikange models](sample-data-clean.ipynb) for linear and shrinkage models, click  [R code: Ensemble models](sample-data-clean.ipynb) for tree-based models.
+> For detailed R code, please click  [R code: linear and shrikange models](sample-data-clean.ipynb) for linear and shrinkage models, click  [R code: Ensemble models](sample-data-clean.ipynb) for tree-based models, click [R code: exploratory data analysis](sample-data-clean.ipynb) for exploratory data analysis. 
 
 ---
 Data limitatoin: 
@@ -173,3 +173,10 @@ The two key metrics to rank risks are frequency and severity. By common sense, t
 The 10-year cash flow model is built upon the commercial strategy to generate 7% IRR and PV of 21335.49 million using valid assumptions. We predict constructing a national football team can have good impacts on Rarita’s economy from multiple aspects including tourism, retailing, employment and willingness to consume. Those should affect East Rarita the most. We discussed ethical, reputation, healthcare and political risks and their mitigation methods.
 
 ---
+
+> Please also kindly note that the final report subimitted contains more detailed information and elaboration of the section presented above with other addtional sections required by the case study. 
+
+Thank you for reading and have a nice day!
+
+![](thank_you.png)
+
