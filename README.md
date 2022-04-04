@@ -3,6 +3,7 @@
 BY ML Group
 
 ![](football_logo.gif)
+
 ---
 ## Project Overview
 
@@ -52,7 +53,7 @@ We defined the competitiveness and potentials of players by the overall rank and
 
 ![](performance_feature_weighting.png)
 
-### Assumptions
+#### Assumptions
 
 >
 *	All player performance features are measured and recorded reasonably and accurately. The relative values of performance features not the values themselves show the competitiveness of players. 
@@ -103,21 +104,23 @@ From the projection above, except the initial funding of 995 million doubloons, 
 
 ![](DCF_model_of_2_scenarios.png)
 
----
-Assumptions: 
+#### Assumptions: 
+
+>
+*	Total expense and revenue growth rates follow a normal distribution with mean and standard deviations calculated from historical data.
+*	Volatility of total expense and total revenue growth rate after the national team built is significantly lower than before.
+*	All cash flows occur at the end of year expect other expense.
+*	Future statistics for RFL are assumed to keep the trends analyzed from the historical data provided. 
+
+> An example of historical data analysis is shown below
+
+![](boxplot_example_of_historical_data_analysis.png)
 
 * Three-stage separation model: There will still be residual impacts of COVID-19 pandemic on global economy in 2022 but minimal impacts for 2022 onwards. For 2023-2027, the team will be subject to multiple changes including player composition, revenue and expense composition due to successful implement of strategies and achieving higher rankings in the FSA and other potential changes in short-term.  At this stage, the team is expected to experience revenue boost and expense management. After Year 7, the team is expected to be mature in team operation and should be subject to long-term expense and revenue growth rate. The key assumptions for the 3-stage separation model is shown below.
 
 ![](DCF_key_assumptions.png)
 
-*	Total expense and revenue growth rates follow a normal distribution with mean and standard deviations calculated from historical data.
-*	Future statistics for RFL are assumed to keep the trends analyzed from the historical data provided. 
-
-> An example of historical data analysis is shown below
-> 
-![](boxplot_example_of_historical_data_analysis.png)
-
-
+> The detailed assumptions by year is shown below.
 
 ![](DCF_assumptions_by_year.png)
 
@@ -125,23 +128,19 @@ Assumptions:
 
 ---
 
+Data limitation: Tournament and league data only involves the past two consecutive years of 2020-2021. No links between the improvement of ranking and past revenue
+growth and expense growth can be explored due to limited data. This results in higher dependence in assumptions that are the sources of uncertainty.
 
-
-> Data limitation: Tournament and league data only involves the past two consecutive years of 2020-2021. No links between the improvement of ranking and past revenue
->  growth and expense growth can be explored due to limited data. This results in higher dependence in assumptions that are the sources of uncertainty.
+---
 
 ### Revenue growth strategy
 
+>
+* Commercial innovation should be treated as the core to trigger revenue growth and are encouraged throughout the organization. Developing a football-based computer or mobile game is a great innovation to boost revenue and attract boarder range of audience.
+* To maximize revenues, expansion of stadium and invention of creative activities are also very important. Launching a new streaming platform for a subscription fee can increase fan engagement to increase matchday and broadcast revenues.
+* The long-term revenue is composed from 50% commercial, 35% broadcast and 15% matchday as shown below.
 
 ![](revenue_composition.png)
-
-
-> 
-> 
-
-
-
-
 
 ## Economic Impacts
 
@@ -149,24 +148,28 @@ Assumptions:
 
 ## Risk Considerations
 
+### Sensitivity analysis of key assumptions
+The NPV of direct profit of building the national football team is significantly subject to changes of the first-year, short-term and long-term total expense and revenue growth, because of the compound effects of money. Diminishing marginal effects are evident from increasing revenue growth rate and decreasing expense growth rate. This can be observed from the table below.
 
+![](sensitivity_test.png)
 
+### Risks and ranking
 
-
-### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
-
->Now it's time to build your own website to showcase your work.  
->To create a website on GitHub Pages to showcase your work is very easy.
-
-This is written in markdown language. 
 >
-* Click [4001 link](https://classroom.github.com/a/ggiq0YzO) to accept your group assignment.
-* Click [5100 link](https://classroom.github.com/a/uVytCqDv) to accept your group assignment 
+* Ethical and reputation risks: With the strong desires to win, football players may choose to dope. This can compromise the integrity of competition and can bring the reputation of the whole country into a scandal.
+* Healthcare risks: High incidence of injuries on football player could pose a burden on Rarita’s new team due to absences of player and recovery costs. The incidence of injuries in male professional adult has an overall exposure of 2.5-9.4 injuries/1000h.
+* Political risks: The tension between the host countries and neighbor countries or other countries can cause damages to football athletes, including body injuries, kidnapping, and murder of athletes.
+* Extreme epidemic risk: The total revenue downturn by year is 11% for the ‘Big Five’ leagues due to the COVID-19 ourbreak. The probability of extreme epidemics in any year is clarified as 2% 
 
-#### Follow the [guide doc](Doc1.pdf) to submit your work. 
 ---
->Be creative! Feel free to link to embed your [data](player_data_salaries_2020.csv), [code](sample-data-clean.ipynb), [image](ACC.png) here
+Risk Ranking: 
+The two key metrics to rank risks are frequency and severity. By common sense, the healthcare risk has the highest frequency of incidence followed by ethical and reputation risks. However, a strike on reputation would directly result in the significant deduction on future revenue compared to loss of revenue due to injuries of athletes. Hence, it ranked the first followed by healthcare risks. Political risk has lowest ranking due to its extremely low frequency. There are countable numbers of international events affecting the football team.
 
-More information on GitHub Pages can be found [here](https://pages.github.com/)
+---
+
 
 ## Summary
+
+The 10-year cash flow model is built upon the commercial strategy to generate 7% IRR and PV of 21335.49 million using valid assumptions. We predict constructing a national football team can have good impacts on Rarita’s economy from multiple aspects including tourism, retailing, employment and willingness to consume. Those should affect East Rarita the most. We discussed ethical, reputation, healthcare and political risks and their mitigation methods.
+
+---
