@@ -177,6 +177,5 @@ The 10-year cash flow model is built upon the commercial strategy to generate 7%
 > Please also kindly note that the final report subimitted contains more detailed information and elaboration of the section presented above with other addtional sections required by the case study. 
 
 Thank you for reading and have a nice day!
-
-![](thank_you.png)
+![](thank_you.gif)
 
