@@ -87,7 +87,7 @@ All three sources of revenue outlied below significantly rely on brand developme
 
 > Assuming all strategies are successfully practiced, the relevant profit and loss can be estimate with present value of 21335.49 million shown below.
 
-![]("profit analysis".png)
+![](profit_analysis.png)
 
 From the projection above, except the initial funding of 995 million doubloons, non-governmental funding is needed at the end of 2023. The funding source of 350 million doubloons can be achieved by multiple long-term extensive commercial sponsorship or transferring team ownership to large corporates or constructing global membership.
 
@@ -101,25 +101,25 @@ From the projection above, except the initial funding of 995 million doubloons, 
 
 > The DCF model for the 2 scenraios is shown below.
 
-![](DCF model of 2 scenarios.png)
+![](DCF_model_of_2_scenarios.png)
 
 ---
 Assumptions: 
 
 * Three-stage separation model: There will still be residual impacts of COVID-19 pandemic on global economy in 2022 but minimal impacts for 2022 onwards. For 2023-2027, the team will be subject to multiple changes including player composition, revenue and expense composition due to successful implement of strategies and achieving higher rankings in the FSA and other potential changes in short-term.  At this stage, the team is expected to experience revenue boost and expense management. After Year 7, the team is expected to be mature in team operation and should be subject to long-term expense and revenue growth rate. The key assumptions for the 3-stage separation model is shown below.
 
-![](DCF key assumptions.png)
+![](DCF_key_assumptions.png)
 
 *	Total expense and revenue growth rates follow a normal distribution with mean and standard deviations calculated from historical data.
 *	Future statistics for RFL are assumed to keep the trends analyzed from the historical data provided. 
 
 > An example of historical data analysis is shown below
 > 
-![](boxplot example of historical data analysis.png)
+![](boxplot_example_of_historical_data_analysis.png)
 
 
 
-![](DCF assumptions by year.png)
+![](DCF_assumptions_by_year.png)
 
 > Please note: The proportion assumptions of total revenue and total expense do not affect the overall profit as they are calculated using the total revenue (expense) timing the corresponding proportion assumption.
 
@@ -133,7 +133,7 @@ Assumptions:
 ### Revenue growth strategy
 
 
-![](revenue composition.png)
+![](revenue_composition.png)
 
 
 > 
