@@ -28,14 +28,14 @@ With machine learning models used to select players, discounted cash flow models
 The modelling steps are outlined below:
 
 >
-* Plot correlation matrix to explore the linear relationship between tournament ranking and all player performance features.
-* Aggregate player level data to national team level by addition or taking averages of the individual performance variables. 
-* Conduct exploratory data analysis to visualize the distinctive impacts of the selected variables on the independent variable, namely the tournament ranking results.
-* Use linear, shrinkage and Ensemble models with relatively non-highly-correlated variables as inputs to quantify the relationships between the performance features and output of tournament ranking. 
-* Select performance features and assigned weights based on the importance and predictive powers of each variable in the constructed models.
-* Rank each performance features selected to eliminate the effects of large value gaps. 
+1. Plot correlation matrix to explore the linear relationship between tournament ranking and all player performance features.
+2. Aggregate player level data to national team level by addition or taking averages of the individual performance variables. 
+3. Conduct exploratory data analysis to visualize the distinctive impacts of the selected variables on the independent variable, namely the tournament ranking results.
+4. Use linear, shrinkage and Ensemble models with relatively non-highly-correlated variables as inputs to quantify the relationships between the performance features and output of tournament ranking. 
+5. Select performance features and assigned weights based on the importance and predictive powers of each variable in the constructed models.
+- Rank each performance features selected to eliminate the effects of large value gaps. 
 Calculate an overall rank for each player based on weighted average rank of those selected performance features.
-* Select 21 players with the highest ranks with filtered positions and substitute players are also selected based on their ranking and age.
+- Select 21 players with the highest ranks with filtered positions and substitute players are also selected based on their ranking and age.
 
 > For detailed R code, please click  [R code: linear and shrikange models](sample-data-clean.ipynb) for linear and shrinkage models, click  [R code: Ensemble models](sample-data-clean.ipynb) for tree-based models, click [R code: exploratory data analysis](sample-data-clean.ipynb) for exploratory data analysis. 
 
